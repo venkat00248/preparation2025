@@ -10,11 +10,9 @@ Variables declared with var are hoisted to the top of their function or global s
 console.log(x); // Output: undefined
 var x = 5;
 console.log(x); // Output: 5
+
+
 }
-
-
-
-
 
 ## let and const Hoisting
 Variables declared with let and const are also hoisted to the top of their block scope. However, they are not initialized during hoisting. Accessing these variables before their declaration results in a ReferenceError. This period between entering the scope and the variable declaration is known as the Temporal Dead Zone (TDZ).
@@ -29,6 +27,8 @@ javascript
 console.log(z); // ReferenceError: Cannot access 'z' before initialization
 const z = 15;
 console.log(z); // Output: 15
+
+
 }
 
 

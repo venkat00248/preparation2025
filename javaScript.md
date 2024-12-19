@@ -30,7 +30,7 @@ console.log(z); // ReferenceError: Cannot access 'z' before initialization
 const z = 15;
 console.log(z); // Output: 15
 }
-# In summary:
+`## In summary:`
 
 var: Hoisted and initialized with undefined, accessible before declaration.
 

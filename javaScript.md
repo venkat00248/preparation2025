@@ -21,7 +21,7 @@ Variables declared with let and const are also hoisted to the top of their block
 
 
 ```javascript
-
+{
 console.log(y); // ReferenceError: Cannot access 'y' before initialization
 let y = 10;      
 console.log(y); // Output: 10
@@ -29,7 +29,7 @@ javascript
 console.log(z); // ReferenceError: Cannot access 'z' before initialization
 const z = 15;
 console.log(z); // Output: 15
-
+}
 # In summary:
 
 var: Hoisted and initialized with undefined, accessible before declaration.

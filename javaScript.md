@@ -39,13 +39,3 @@ var: Hoisted and initialized with undefined, accessible before declaration.
 let and const: Hoisted but not initialized, accessing them before declaration results in a ReferenceError due to the Temporal Dead Zone.
 
 This behavior ensures safer and more predictable code, especially with let and const, by preventing the use of variables before they are properly declared and initialized.
-
-
-
-
-
-
-
-
-hhhhhhhhhhhhhhhh
-

@@ -5,7 +5,7 @@ However, the way hoisting works differs between var, let, and const.
 
 var Hoisting
 Variables declared with var are hoisted to the top of their function or global scope and are initialized with undefined. You can access them before their declaration, but their value will be undefined.
-
+```javascript
 {
 console.log(x); // Output: undefined
 var x = 5;
@@ -30,7 +30,9 @@ console.log(z); // ReferenceError: Cannot access 'z' before initialization
 const z = 15;
 console.log(z); // Output: 15
 }
-`## In summary:`
+
+
+## In summary:
 
 var: Hoisted and initialized with undefined, accessible before declaration.
 

@@ -17,7 +17,7 @@ console.log(x); // Output: 5
 Variables declared with let and const are also hoisted to the top of their block scope. However, they are not initialized during hoisting. Accessing these variables before their declaration results in a ReferenceError. This period between entering the scope and the variable declaration is known as the Temporal Dead Zone (TDZ).
 
 
-{
+
 console.log(y); // ReferenceError: Cannot access 'y' before initialization
 let y = 10;      
 console.log(y); // Output: 10
@@ -25,7 +25,7 @@ javascript
 console.log(z); // ReferenceError: Cannot access 'z' before initialization
 const z = 15;
 console.log(z); // Output: 15
-}
+
 # In summary:
 
 var: Hoisted and initialized with undefined, accessible before declaration.
